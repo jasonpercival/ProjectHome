@@ -23,8 +23,8 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalMovement = Input.GetAxis("Horizontal");
-        float verticalMovement = Input.GetAxis("Vertical");
+        float horizontalMovement = Input.GetAxisRaw("Horizontal");
+        float verticalMovement = Input.GetAxisRaw("Vertical");
 
         if (horizontalMovement != 0)
         {
@@ -33,10 +33,11 @@ public class Character : MonoBehaviour
 
         spriteRenderer.flipX = !facingRight;
 
-        Vector2 movement = new Vector2(horizontalMovement * speed, verticalMovement * speed);
+        Vector2 movement = new Vector2(horizontalMovement * speed , verticalMovement * speed );
         rb.velocity = movement;
 
         animator.SetFloat("movement", Mathf.Abs(horizontalMovement));
+        animator.SetFloat("verticalmovement", verticalMovement);
         
     }
 }
