@@ -27,7 +27,7 @@ TextureImporter:
     21300044: tilemap_packed_22
     21300046: boy_0
     21300048: boy_1
-    21300050: boy_2
+    21300050: boy_up_1
     21300052: boy_right_1
     21300054: tilemap_packed_27
     21300056: tilemap_packed_28
@@ -54,7 +54,7 @@ TextureImporter:
     21300098: tilemap_packed_49
     21300100: boy_4
     21300102: boy_5
-    21300104: boy_6
+    21300104: boy_up_2
     21300106: boy_right_2
     21300108: tilemap_packed_54
     21300110: tilemap_packed_55
@@ -81,7 +81,7 @@ TextureImporter:
     21300152: tilemap_packed_76
     21300154: boy_8
     21300156: boy_9
-    21300158: tilemap_packed_79
+    21300158: boy_up_3
     21300160: boy_right_3
     21300162: tilemap_packed_81
     21300164: tilemap_packed_82
@@ -1103,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy_2
+      name: boy_up_1
       rect:
         serializedVersion: 2
         x: 400
@@ -1643,7 +1643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boy_6
+      name: boy_up_2
       rect:
         serializedVersion: 2
         x: 400
@@ -2183,7 +2183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_79
+      name: boy_up_3
       rect:
         serializedVersion: 2
         x: 400
