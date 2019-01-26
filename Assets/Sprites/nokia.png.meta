@@ -1,12 +1,8 @@
 fileFormatVersion: 2
-guid: bcdc005a555d83f4f883260bf45965ad
+guid: 573fb931b27774b4a82c18e8bc10660b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: policecar_left
-    21300002: policecar_down
-    21300004: policecar_right
-    21300006: policecar_up
-    21300008: PoliceCar_0
+    21300000: nokia_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -50,7 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,93 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: policecar_left
+      name: nokia_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 39
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5efd7b9466058948889a05396461ae2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: policecar_down
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 39
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1be38a3e6065f8241a2d3a687814c4a6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: policecar_right
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 39
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a21b5cf14b957f64088373bd78a02947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: policecar_up
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 39
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13f3ad8f9fb101e459b6b8057cade929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceCar_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 5
-        width: 24
-        height: 22
+        x: 134
+        y: 66
+        width: 99
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,7 +132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae72ea246939b534e95f5293941a053b
+      spriteID: b6ac1dc475cde95459e27601bbd348ff
       vertices: []
       indices: 
       edges: []
@@ -224,7 +140,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3c8923c4b1a21d74883f22d709ada1de
+    spriteID: c50c2e43b92d37a4da71aa3e2e184fd3
     vertices: []
     indices: 
     edges: []

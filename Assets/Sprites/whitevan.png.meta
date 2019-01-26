@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: bcdc005a555d83f4f883260bf45965ad
+guid: efbfb98cce25bd84b89859a6cb5a050e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: policecar_left
-    21300002: policecar_down
-    21300004: policecar_right
-    21300006: policecar_up
-    21300008: PoliceCar_0
+    21300000: whitevan_0
+    21300002: whitevan_1
+    21300004: whitevan_2
+    21300006: whitevan_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -122,92 +121,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: policecar_left
+      name: whitevan_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 39
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5efd7b9466058948889a05396461ae2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: policecar_down
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 39
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1be38a3e6065f8241a2d3a687814c4a6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: policecar_right
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 39
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a21b5cf14b957f64088373bd78a02947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: policecar_up
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 39
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13f3ad8f9fb101e459b6b8057cade929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PoliceCar_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 5
-        width: 24
+        y: 0
+        width: 22
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,7 +135,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae72ea246939b534e95f5293941a053b
+      spriteID: ea68366225b0f4041a9fb36a48a5dcd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whitevan_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e10a9b8dda57e440918308465de335d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whitevan_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bc0fc311a4f4743b4d49ce6943e1dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whitevan_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18725510b0d6d42468be1063ea4cd748
       vertices: []
       indices: 
       edges: []
@@ -224,7 +203,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3c8923c4b1a21d74883f22d709ada1de
+    spriteID: 0459ac49aaf93b440ae80ecbd3ee1488
     vertices: []
     indices: 
     edges: []
