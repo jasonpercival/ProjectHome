@@ -80702,6 +80702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c28d921aa2570c42a4e7dcd7c2b5a4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fearIncrease: 0.0005
 --- !u!1 &732733940
 GameObject:
   m_ObjectHideFlags: 0
@@ -81139,6 +81140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
+  fear: 0
+  fearSlider: {fileID: 0}
   ftm: {fileID: 0}
 --- !u!212 &1163019093
 SpriteRenderer:
@@ -113331,6 +113334,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -101, y: 25, z: 0}
+    second:
+      m_TileIndex: 131
+      m_TileSpriteIndex: 131
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: -96, y: 25, z: 0}
     second:
       m_TileIndex: 103
@@ -120741,6 +120753,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 00ed7665f6736a34c8317008372b1e14, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 009b644c1d74c20428df823d86161642, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 8ce2f98557d2224478612bba9432a92c, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 3
     m_Data: {fileID: 21300432, guid: 7f276a0ebff177e49ad32e3089f557e2, type: 3}
@@ -121004,8 +121018,10 @@ Tilemap:
     m_Data: {fileID: 21300754, guid: ad8b6ab45db00e144b55fb217ec111c4, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300748, guid: ad8b6ab45db00e144b55fb217ec111c4, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300450, guid: ad8b6ab45db00e144b55fb217ec111c4, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2903
+  - m_RefCount: 2904
     m_Data:
       e00: 1
       e01: 0
@@ -121024,7 +121040,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2903
+  - m_RefCount: 2904
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
