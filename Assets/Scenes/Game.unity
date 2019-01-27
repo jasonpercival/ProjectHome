@@ -80697,7 +80697,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686321899}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c28d921aa2570c42a4e7dcd7c2b5a4c, type: 3}
   m_Name: 
@@ -81141,7 +81141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   fear: 0
-  fearSlider: {fileID: 0}
+  fearSlider: {fileID: 492818817}
   ftm: {fileID: 0}
 --- !u!212 &1163019093
 SpriteRenderer:
