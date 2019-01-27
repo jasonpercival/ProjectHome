@@ -52,6 +52,10 @@ public class Character : MonoBehaviour
             var slider = fearSlider.GetComponent<Slider>();
             slider.value = fear;
         }
-        
+
+        Color ambient = new Vector4(1.0f - fear, 1.0f - fear, 1.0f - fear, 1.0f);
+        RenderSettings.ambientLight = ambient;
+        //spotLight.SetActive(true);
+
     }
 }
