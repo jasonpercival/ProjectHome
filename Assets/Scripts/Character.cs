@@ -8,6 +8,7 @@ public class Character : MonoBehaviour
     public float speed = 5.0f;
     public float fear = 0.0f;
     public GameObject fearSlider;
+    public GameObject map;
 
     Animator animator;
     Rigidbody2D rb;
@@ -15,6 +16,7 @@ public class Character : MonoBehaviour
     bool facingRight = true;
 
     public FloatingTextManager ftm;
+    bool isMapActive = false;
     
 
     // Start is called before the first frame update
@@ -25,7 +27,7 @@ public class Character : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         ftm = GameObject.Find("FloatingTextManager").GetComponent<FloatingTextManager>();
         Vector3 offset = new Vector3(0, 0.25f, 0);
-        ftm.Show("I better get to the store...", 20, Color.green, transform.position+offset, Vector3.up * 25, 3.0f);
+        //ftm.Show("I better get to the store...", 25, Color.green, transform.position+offset, Vector3.up * 25, 3.0f);
     }
 
     // Update is called once per frame
@@ -37,6 +39,12 @@ public class Character : MonoBehaviour
         if (horizontalMovement != 0)
         {
             facingRight = (horizontalMovement > 0);
+        }
+
+        if (Input.GetButtonUp("Jump"))
+        {
+            isMapActive = !isMapActive;
+            map.SetActive(isMapActive);
         }
 
         spriteRenderer.flipX = !facingRight;

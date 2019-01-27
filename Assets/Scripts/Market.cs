@@ -12,14 +12,14 @@ public class Market : MonoBehaviour
         if (collision.tag == "Player")
         {
             FloatingTextManager ftm = GameObject.Find("FloatingTextManager").GetComponent<FloatingTextManager>();
-            ftm.Show("Got the stuff! ... better head home now.", 20, Color.green, transform.position, Vector3.up * 25, 5.0f);
-            // activate van trigger
-            // activate barrier
-            if (blockade)
-            {
-                blockade.SetActive(true);
-            }
+            ftm.Show("Got the stuff! ... better head home now.", 25, Color.green, transform.position, Vector3.up * 25, 5.0f);
 
+            // activate barrier
+            //if (blockade)
+            //{
+                blockade.SetActive(true);
+            //}
+            // activate van trigger
             if (vanTrigger)
             {
                 vanTrigger.SetActive(true);

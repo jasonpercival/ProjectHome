@@ -20,10 +20,10 @@ public class ColliderTest : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            ftm.Show("This doesn't look like the right way to go...", 20, Color.yellow, transform.position, Vector3.up * 25, 4.0f);
+            ftm.Show("Hmmm... is this the right way?", 25, Color.green, transform.position, Vector3.up * 25, 4.0f);
 
-            RenderSettings.ambientLight = Color.black;
-            spotLight.SetActive(true);
+            ///RenderSettings.ambientLight = Color.black;
+            //spotLight.SetActive(true);
 
         }
     }

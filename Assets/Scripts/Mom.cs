@@ -13,12 +13,12 @@ public class Mom : MonoBehaviour
 
             if (GameObject.Find("Van").GetComponent<Van>().enabled)
             {
-                ftm.Show("You're the best son. I'm glad you made it home safe.", 15, Color.green, transform.position, Vector3.up * 25, 6.0f);
+                ftm.Show("You're the best son. I'm glad you made it home safe.", 25, Color.green, transform.position, Vector3.up * 25, 6.0f);
                 StartCoroutine(RestartGame());
             }
             else
             {
-                ftm.Show("Hey boy, can you stop by the market and pickup some groceries. Don't be late!", 15, Color.green, transform.position, Vector3.up * 30, 6.0f);
+                ftm.Show("Hey boy, can you stop by the market and pickup some groceries. Don't be late!", 25, Color.green, transform.position, Vector3.up * 30, 6.0f);
             }
         }
     }
