@@ -18,7 +18,7 @@ public class Mom : MonoBehaviour
             }
             else
             {
-                ftm.Show("Hey boy, can you stop by the market and pickup some groceries. Don't be late!", 14, Color.green, transform.position, Vector3.up * 25, 8.0f);
+                ftm.Show("Hey boy, can you stop by the market and pickup some groceries. Don't be late!", 15, Color.green, transform.position, Vector3.up * 30, 6.0f);
             }
         }
     }
