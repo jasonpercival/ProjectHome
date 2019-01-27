@@ -9,6 +9,7 @@ public class VanTrigger : MonoBehaviour
         if (collision.tag == "Player")
         {
             GameObject.Find("Van").GetComponent<Van>().enabled = true;
+            collision.GetComponent<CountDown>().enabled = true;
         }
     }
 }

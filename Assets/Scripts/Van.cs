@@ -6,6 +6,7 @@ public class Van : MonoBehaviour
 {
 
     public float fearIncrease = 0.0005f;
+    public float speed = 1.0f;
 
     GameObject player;
 
@@ -25,7 +26,7 @@ public class Van : MonoBehaviour
         var target = player.transform.position - transform.position;
         if (target.magnitude < 6.0f)
         {
-            transform.Translate(target * Time.deltaTime * 0.5f);
+            transform.Translate(target * Time.deltaTime * speed);
             ps.fear += fearIncrease;
             if (ps.fear > 1.0f)
             {

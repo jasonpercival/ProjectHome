@@ -5,6 +5,7 @@ using UnityEngine;
 public class Market : MonoBehaviour
 {
     public GameObject blockade;
+    public GameObject vanTrigger;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,6 +18,11 @@ public class Market : MonoBehaviour
             if (blockade)
             {
                 blockade.SetActive(true);
+            }
+
+            if (vanTrigger)
+            {
+                vanTrigger.SetActive(true);
             }
 
         }
