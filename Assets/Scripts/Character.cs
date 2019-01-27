@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
-
     public float speed = 5.0f;
+    public float fear = 0.0f;
+    public GameObject fearSlider;
 
     Animator animator;
     Rigidbody2D rb;
@@ -44,6 +46,12 @@ public class Character : MonoBehaviour
 
         animator.SetFloat("movement", Mathf.Abs(horizontalMovement));
         animator.SetFloat("verticalmovement", verticalMovement);
+
+        if (fearSlider)
+        {
+            var slider = fearSlider.GetComponent<Slider>();
+            slider.value = fear;
+        }
         
     }
 }
